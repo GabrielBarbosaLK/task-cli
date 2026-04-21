@@ -15,10 +15,10 @@ Listing reads the JSON file and prints tasks. You can list all tasks or filter b
 task-cli [command] [arguments]
 
 task-cli add "description"   
-task-cli update <id> "description"   
-task-cli delete <id>   
-task-cli mark-in-progress <id>   
-task-cli mark-done <id>   
+task-cli update [id] "description"   
+task-cli delete [id]   
+task-cli mark-in-progress [id]   
+task-cli mark-done [id]   
 task-cli list   
 task-cli list done   
 task-cli list todo   
