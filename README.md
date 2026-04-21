@@ -12,7 +12,7 @@ Listing reads the JSON file and prints tasks. You can list all tasks or filter b
 
 ## Usage
 
-task-cli <command> [arguments]
+task-cli [command] [arguments]
 
 task-cli add "description"   
 task-cli update <id> "description"   
